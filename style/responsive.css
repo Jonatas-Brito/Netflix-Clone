@@ -1,0 +1,108 @@
+@media screen and (max-width: 1280px){
+
+  .topo{
+
+        height: 600px;
+        background-image: url(/imagens/background-1280.jpg);
+        background-repeat: no-repeat;
+        
+    }
+
+    
+
+    .botao1{
+
+        flex-direction: column;
+        justify-content: start;
+        margin-left: 35px;
+        margin-top: 400px;
+        width: 200px;
+        font-size: 15px;
+
+    }
+
+    .botao2{
+        
+        
+        flex-direction: column;
+        justify-content: start;
+        margin-bottom: 20px;
+        margin-top: 15px;
+        width: 200px;
+        font-size: 15px;
+        margin-left: 20px;
+        padding: 15px;
+    }
+
+    .carrossel-filmes{
+        margin-top: 5px;
+    }
+
+
+}
+
+@media screen and (max-width: 700px){
+
+
+    
+
+    .filme-principal{        
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1%;
+
+    }
+
+    .filme-principal .botao1{
+        justify-content: start;
+        flex-direction: column;
+        margin-top: px;
+        width: 350px;
+    }
+
+
+
+    .botao1{
+
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: 200px;
+        width: 200px;
+        font-size: 15px;
+
+    }
+
+    .botao2{
+        
+        
+        flex-direction: column;
+        justify-content: start;
+        margin-bottom: px;
+        margin-top: 15px;
+        width: 200px;
+        font-size: 15px;
+        margin-left: 20px;
+        
+    }
+
+    .topo{
+        
+        display: flex;
+        flex-direction: column;
+        height: 400px;        
+        background-image: url(/imagens/background-395.jpg);
+        background-repeat: no-repeat;
+               
+    }
+
+    
+.carrossel-filmes{
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+}
